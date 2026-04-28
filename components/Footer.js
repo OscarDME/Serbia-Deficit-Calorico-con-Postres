@@ -1,4 +1,3 @@
-import { Mail } from "lucide-react";
 import { copy } from "@/lib/copy";
 
 export default function Footer() {
@@ -25,15 +24,6 @@ export default function Footer() {
               </a>
             </li>
           ))}
-          <li className="mt-1">
-            <a
-              href={`mailto:${footer.contact}`}
-              className="inline-flex items-center gap-2 text-[#E0A458] transition-colors hover:text-[#FFF7F1]"
-            >
-              <Mail className="h-4 w-4" strokeWidth={2.4} />
-              {footer.contact}
-            </a>
-          </li>
         </ul>
       </div>
 
