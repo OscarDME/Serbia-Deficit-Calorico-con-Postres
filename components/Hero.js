@@ -154,7 +154,7 @@ export default function Hero() {
             {/* Guarantee chip */}
             <div className="absolute -bottom-3 left-3 z-20 hidden items-center gap-2 rounded-2xl bg-white px-4 py-2.5 shadow-xl ring-1 ring-[#7FC8A9]/30 md:flex">
               <ShieldCheck className="h-5 w-5 text-[#7FC8A9]" strokeWidth={2.4} />
-              <span className="text-xs font-bold text-[#2A1A1F]">7 días</span>
+              <span className="text-xs font-bold text-[#2A1A1F]">7 dana</span>
             </div>
 
             {/* Mockup image */}
